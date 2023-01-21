@@ -64,22 +64,22 @@ window.addEventListener("load", ()=>{
                 tempIcon.src = '/icons/clearsky.png';
             }
             else if(data.weather[0].id > 200 && data.weather[0].id < 300){
-                tempIcon.src = '/icons/thunderstorm.png';
+                tempIcon.src = 'icons/thunderstorm.png';
             }
             else if(data.weather[0].id > 300 && data.weather[0].id < 400){
-                tempIcon.src = '/icons/drizzle.png';
+                tempIcon.src = 'icons/drizzle.png';
             }
             else if(data.weather[0].id > 500 && data.weather[0].id < 600){
-                tempIcon.src = '/icons/rain.png';
+                tempIcon.src = 'icons/rain.png';
             }
             else if(data.weather[0].id > 600 && data.weather[0].id < 700){
-                tempIcon.src = '/icons/snow.png';
+                tempIcon.src = 'icons/snow.png';
             }
             else if(data.weather[0].id > 700 && data.weather[0].id < 800){
-                tempIcon.src = '/icons/atmosphere.png';
+                tempIcon.src = 'icons/atmosphere.png';
             }
             else if(data.weather[0].id > 800 && data.weather[0].id < 900){
-                tempIcon.src = '/icons/cloudy.png';
+                tempIcon.src = 'icons/cloudy.png';
             }
         })
         .catch(err => console.error(err));
