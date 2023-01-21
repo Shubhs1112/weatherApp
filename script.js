@@ -61,7 +61,7 @@ window.addEventListener("load", ()=>{
             tempValue.innerHTML = Math.round(data.main.temp - 273.15);
             climate.innerHTML = data.weather[0].description;
             if(data.weather[0].id == 800){
-                tempIcon.src = '/icons/clearsky.png';
+                tempIcon.src = 'icons/clearsky.png';
             }
             else if(data.weather[0].id > 200 && data.weather[0].id < 300){
                 tempIcon.src = 'icons/thunderstorm.png';
